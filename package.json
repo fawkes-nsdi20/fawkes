@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "pwmetrics": "^4.2.1"
+  },
+  "dependencies": {
+    "chrome-remote-interface": "^0.27.2",
+    "googleapis": "^39.2.0",
+    "lighthouse": "^5.1.0",
+    "typing": "^0.1.9"
+  }
+}

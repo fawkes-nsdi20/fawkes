@@ -1,0 +1,20 @@
+# directories
+*node_modules*
+*chrome-caching/*
+*recorded/*
+
+# extensions
+*.tmp
+*.log
+*.bk
+*.tree
+*.txt
+*.json
+!pwconfig.json
+!package.json
+!package-lock.json
+
+# specific files
+yarn.lock
+
+# exceptions

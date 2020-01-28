@@ -1,7 +1,8 @@
 # directories
 *node_modules*
-*chrome-caching/*
-*recorded/*
+*chrome-caching*
+*recorded*
+*top-ten-*
 
 # extensions
 *.tmp

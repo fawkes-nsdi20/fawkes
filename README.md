@@ -6,12 +6,24 @@
     We are relying on Mahimahi to record and replay web pages. Since Mahimahi binaries are compiled for ubuntu 16.04 or lower versions, we also require a compatible OS.
     The following instructions are tested on Ubuntu 16.04.
 
-- Follow the instructions in TreeMatching, HTML-APTED, JSPatcher repositories in order to install all the required dependencies.
+- Follow the instructions in [TreeMatching](https://github.com/fawkes-nsdi20/TreeMatching) submodule in order to install all the required dependencies for it.
 
 - Install other dependencies:
     ```
     $ sudo apt install nodejs-legacy
     $ sudo apt-get install build-essential libssl-dev
+    ```
+
+## Setup Enviroment:
+- Download this [Chrome binary](https://drive.google.com/file/d/1BdwTTwh_TD7hDhrot2YaJe1YhvZj9g6W/view?usp=sharing) which fixes an SSL issue for correct replay of warm cache scenarios:
+- Unzip the downloaded file and place it under *mm-recording*:
+    ```
+    $ unzip mm-recording/chrome-caching.zip -d mm-recording/
+    ```
+
+- From the root directory run the following:
+    ```
+    $ npm install
     ```
 
 ## Yahoo homepage Example:

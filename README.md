@@ -44,4 +44,3 @@ When *replay/fawkes* is replayed using Mahimahi replay tool, Fawkes static templ
 In order to compare it with the default response (target):
 ```$ ./replay examples/yahoo/replay/default```
 
-Screenshots of our replay are included under examples/yahoo/screenshots.

@@ -1,0 +1,8 @@
+treematching/tests/*
+
+.idea*
+*__pycache__/
+*temp*
+*.tmp
+*.log
+out/*

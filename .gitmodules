@@ -1,0 +1,3 @@
+[submodule "html-apted"]
+	path = html-apted
+	url = https://github.com/fawkes-nsdi20/HTML-APTED.git

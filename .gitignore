@@ -1,6 +1,7 @@
 # directories
-*node_modules*
+js-patcher/built*
 *chrome-caching*
+*node_modules*
 *recorded*
 *top-ten-*
 
@@ -10,12 +11,15 @@
 *.bk
 *.tree
 *.txt
-*.json
-!pwconfig.json
-!package.json
-!package-lock.json
+
+# Removed -- *.json
 
 # specific files
 yarn.lock
 
 # exceptions
+# !pwconfig.json
+# !package.json
+# !package-lock.json
+
+

@@ -11,8 +11,7 @@ js-patcher/built*
 *.bk
 *.tree
 *.txt
-
-# Removed -- *.json
+!requirements.txt
 
 # specific files
 yarn.lock
